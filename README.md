@@ -24,8 +24,8 @@ php artisan migrate
 ### Migrations
 Checkout the migrations for:
 * Create posts tables
-* Create Select Stored Procedure
-* Create Insert Stored Procedure
+* [Create Select Stored Procedure](database/migrations/2021_09_02_121502_create_super_select_procedure.php)
+* [Create Insert Stored Procedure](database/migrations/2021_09_02_121452_create_super_insert_procedure.php)
 
 
 ### Execute methods
