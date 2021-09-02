@@ -18,7 +18,7 @@ class CreateSuperSelectProcedure extends Migration
 
         DB::unprepared("CREATE PROCEDURE super_select_procedure(id int)
         BEGIN
-            SELECT * FROM posts WHERE id = id;
+            SELECT * FROM posts WHERE posts.id = id;
         END");
     }
 
