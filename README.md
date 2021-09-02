@@ -23,11 +23,13 @@ php artisan migrate
 
 ### Migrations
 Checkout the migrations for:
-* Create posts tables
+* [Create posts table](database/migrations/2021_09_02_121350_create_posts_table.php)
 * [Create Select Stored Procedure](database/migrations/2021_09_02_121502_create_super_select_procedure.php)
 * [Create Insert Stored Procedure](database/migrations/2021_09_02_121452_create_super_insert_procedure.php)
 
 
 ### Execute methods
 Checkout the methods created as an example in the:
-* Model `Post`
+* [Model Post](app/Models/Post.php)
+  * `superInsert`
+  * superSelect`
