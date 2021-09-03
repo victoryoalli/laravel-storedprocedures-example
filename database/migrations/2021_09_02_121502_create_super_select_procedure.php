@@ -29,6 +29,6 @@ class CreateSuperSelectProcedure extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('super_select_procedure');
+        DB::unprepared('DROP PROCEDURE IF EXISTS super_select_procedure;');
     }
 }

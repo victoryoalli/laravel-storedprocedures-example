@@ -30,7 +30,5 @@ class CreateSuperInsertProcedure extends Migration
     public function down()
     {
         DB::unprepared('DROP PROCEDURE IF EXISTS super_insert_procedure;');
-
-        Schema::dropIfExists('super_insert_procedure');
     }
 }
